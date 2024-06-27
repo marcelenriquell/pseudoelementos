@@ -1,0 +1,127 @@
+* {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width: 100%;
+}
+
+.galeria {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info {
+    font-family: Inter, Courier, monospace;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.decoration {
+    width: 400px;
+    height: 2px;
+    background: #E74040;
+    flex: none;
+    flex-grow: 0;
+}
+
+.imagenes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width: 50%;
+    background-color: rgb(46, 46, 46);
+}
+
+.caja1 {
+    font-family: Inter, Courier, monospace;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    color: #E74040;
+    font-size: 24px
+}
+
+.caja {
+    font-family: Inter, Courier, monospace;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+    height: 200px;
+    width: 700px;
+}
+
+.info-extra {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+#categorias {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+
+a#boton {
+    height: 80px;
+    width: 300px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div img {
+    height: 400px;
+    width: auto;
+}
+
+/* PSUDO ELEMENTOS */
+
+h1::after {
+    content: "!";
+    color: #E74040;
+    font-size: 35px;
+}
+
+h1::before {
+    content: "!";
+    color: #E74040;
+    font-size: 35px;
+}
+
+p::first-letter {
+    font-size: 130%;
+    color: #000000;
+}
+
+p::first-line {
+    color: #E74040;
+}
+
+p::selection {
+    color: #e7a440;
+    background-color: rgb(46, 46, 46);
+}
+
